@@ -9,7 +9,6 @@ from tqdm import tqdm
 from PIL import Image
 import PIL.ImageOps
 
-#pdf_path='BOARD RESOLUTION SIRENA.pdf'
 pdf_path='Head-First-Android-Development-2015.pdf'
 with tempfile.TemporaryDirectory() as path:
     print("converting to images")
